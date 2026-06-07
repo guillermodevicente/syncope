@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
@@ -357,6 +358,7 @@ under the License.
           </deployables>
         </configuration>
         <executions>
+<!--
           <execution>
             <id>start-container</id>
             <phase>pre-integration-test</phase>
@@ -367,6 +369,7 @@ under the License.
               <skip>${skipTests}</skip>
             </configuration>
           </execution>
+-->
           <execution>
             <id>stop-container</id>
             <phase>post-integration-test</phase>
@@ -377,6 +380,7 @@ under the License.
               <skip>${skipTests}</skip>
             </configuration>
           </execution>
+
         </executions>
       </plugin>
 
